@@ -133,8 +133,9 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "Bus"
    s.dependency "Cordova", "~> 4.4.4"
+   s.dependency "Bus", "~> 0.0.4"
+
 
 
 
