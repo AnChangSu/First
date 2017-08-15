@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811B66E77C5DB2B2E62B3397 /* libPods-First.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4425E185AF640FFCA31540 /* libPods-First.a */; };
 		B1ADE7EB1F4179BF00CFD1B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE7EA1F4179BF00CFD1B8 /* main.m */; };
 		B1ADE7EE1F4179BF00CFD1B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE7ED1F4179BF00CFD1B8 /* AppDelegate.m */; };
 		B1ADE7F11F4179BF00CFD1B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE7F01F4179BF00CFD1B8 /* ViewController.m */; };
@@ -15,41 +16,16 @@
 		B1ADE7F91F4179BF00CFD1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE7F71F4179BF00CFD1B8 /* LaunchScreen.storyboard */; };
 		B1ADE8041F4179BF00CFD1B8 /* FirstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8031F4179BF00CFD1B8 /* FirstTests.m */; };
 		B1ADE80F1F4179BF00CFD1B8 /* FirstUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE80E1F4179BF00CFD1B8 /* FirstUITests.m */; };
-		B1ADE86F1F417AF500CFD1B8 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE8301F417AF500CFD1B8 /* config.xml */; };
-		B1ADE8701F417AF500CFD1B8 /* CDVJSON_private.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8341F417AF500CFD1B8 /* CDVJSON_private.m */; };
-		B1ADE8711F417AF500CFD1B8 /* CDVGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8391F417AF500CFD1B8 /* CDVGestureHandler.m */; };
-		B1ADE8721F417AF500CFD1B8 /* CDVHandleOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE83C1F417AF500CFD1B8 /* CDVHandleOpenURL.m */; };
-		B1ADE8731F417AF500CFD1B8 /* CDVIntentAndNavigationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE83F1F417AF500CFD1B8 /* CDVIntentAndNavigationFilter.m */; };
-		B1ADE8741F417AF500CFD1B8 /* CDVLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8421F417AF500CFD1B8 /* CDVLocalStorage.m */; };
-		B1ADE8751F417AF500CFD1B8 /* CDVUIWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8451F417AF500CFD1B8 /* CDVUIWebViewDelegate.m */; };
-		B1ADE8761F417AF500CFD1B8 /* CDVUIWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8471F417AF500CFD1B8 /* CDVUIWebViewEngine.m */; };
-		B1ADE8771F417AF500CFD1B8 /* CDVUIWebViewNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8491F417AF500CFD1B8 /* CDVUIWebViewNavigationDelegate.m */; };
-		B1ADE8781F417AF500CFD1B8 /* CDVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE84D1F417AF500CFD1B8 /* CDVAppDelegate.m */; };
-		B1ADE8791F417AF500CFD1B8 /* CDVCommandDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8521F417AF500CFD1B8 /* CDVCommandDelegateImpl.m */; };
-		B1ADE87A1F417AF500CFD1B8 /* CDVCommandQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8541F417AF500CFD1B8 /* CDVCommandQueue.m */; };
-		B1ADE87B1F417AF500CFD1B8 /* CDVConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8561F417AF500CFD1B8 /* CDVConfigParser.m */; };
-		B1ADE87C1F417AF500CFD1B8 /* CDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8581F417AF500CFD1B8 /* CDVInvokedUrlCommand.m */; };
-		B1ADE87D1F417AF500CFD1B8 /* CDVPlugin+Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE85A1F417AF500CFD1B8 /* CDVPlugin+Resources.m */; };
-		B1ADE87E1F417AF500CFD1B8 /* CDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE85C1F417AF500CFD1B8 /* CDVPlugin.m */; };
-		B1ADE87F1F417AF500CFD1B8 /* CDVPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE85E1F417AF500CFD1B8 /* CDVPluginResult.m */; };
-		B1ADE8801F417AF500CFD1B8 /* CDVTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8611F417AF500CFD1B8 /* CDVTimer.m */; };
-		B1ADE8811F417AF500CFD1B8 /* CDVURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8631F417AF500CFD1B8 /* CDVURLProtocol.m */; };
-		B1ADE8821F417AF500CFD1B8 /* CDVUserAgentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8651F417AF500CFD1B8 /* CDVUserAgentUtil.m */; };
-		B1ADE8831F417AF500CFD1B8 /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8671F417AF500CFD1B8 /* CDVViewController.m */; };
-		B1ADE8841F417AF500CFD1B8 /* CDVWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE86A1F417AF500CFD1B8 /* CDVWhitelist.m */; };
-		B1ADE8851F417AF500CFD1B8 /* NSDictionary+CordovaPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE86C1F417AF500CFD1B8 /* NSDictionary+CordovaPreferences.m */; };
-		B1ADE8861F417AF500CFD1B8 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE86E1F417AF500CFD1B8 /* NSMutableArray+QueueAdditions.m */; };
 		B1ADE8911F417B4500CFD1B8 /* Connector_First.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8881F417B4500CFD1B8 /* Connector_First.m */; };
 		B1ADE8921F417B4500CFD1B8 /* DetailPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE88A1F417B4500CFD1B8 /* DetailPlugin.m */; };
 		B1ADE8931F417B4500CFD1B8 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE88C1F417B4500CFD1B8 /* FirstDetailViewController.m */; };
 		B1ADE8941F417B4500CFD1B8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE88E1F417B4500CFD1B8 /* FirstViewController.m */; };
 		B1ADE8951F417B4500CFD1B8 /* FirstViewUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8901F417B4500CFD1B8 /* FirstViewUserInfo.m */; };
-		B1ADE8A01F417BB000CFD1B8 /* LDBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8991F417BB000CFD1B8 /* LDBusMediator.m */; };
-		B1ADE8A11F417BB000CFD1B8 /* LDBusMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE89B1F417BB000CFD1B8 /* LDBusMediatorTipViewController.m */; };
-		B1ADE8A21F417BB000CFD1B8 /* LDBusNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE89D1F417BB000CFD1B8 /* LDBusNavigator.m */; };
-		B1ADE8A31F417BB000CFD1B8 /* UIViewController+NavigationTip.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE89F1F417BB000CFD1B8 /* UIViewController+NavigationTip.m */; };
 		B1ADE8AB1F417CFD00CFD1B8 /* HLAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8AA1F417CFD00CFD1B8 /* HLAudioPlayer.m */; };
-		B1ADE8AD1F417E0900CFD1B8 /* First.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE8AC1F417E0900CFD1B8 /* First.podspec */; };
+		B1ADE8AF1F41816400CFD1B8 /* First.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE8AE1F41816400CFD1B8 /* First.podspec */; };
+		B1ADE9051F42DED600CFD1B8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE9041F42DED600CFD1B8 /* Podfile */; };
+		B1ADE9181F42E80700CFD1B8 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9171F42E80700CFD1B8 /* libCordova.a */; };
+		B1ADE91A1F42E80A00CFD1B8 /* libBus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9191F42E80A00CFD1B8 /* libBus.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F4425E185AF640FFCA31540 /* libPods-First.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-First.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C573B2C6541881D03429A64 /* Pods-First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.debug.xcconfig"; sourceTree = "<group>"; };
 		B1ADE7E61F4179BF00CFD1B8 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1ADE7EA1F4179BF00CFD1B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1ADE7EC1F4179BF00CFD1B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,61 +64,6 @@
 		B1ADE80A1F4179BF00CFD1B8 /* FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1ADE80E1F4179BF00CFD1B8 /* FirstUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstUITests.m; sourceTree = "<group>"; };
 		B1ADE8101F4179BF00CFD1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1ADE8301F417AF500CFD1B8 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
-		B1ADE8321F417AF500CFD1B8 /* CDVDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDebug.h; sourceTree = "<group>"; };
-		B1ADE8331F417AF500CFD1B8 /* CDVJSON_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVJSON_private.h; sourceTree = "<group>"; };
-		B1ADE8341F417AF500CFD1B8 /* CDVJSON_private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVJSON_private.m; sourceTree = "<group>"; };
-		B1ADE8351F417AF500CFD1B8 /* CDVPlugin+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDVPlugin+Private.h"; sourceTree = "<group>"; };
-		B1ADE8381F417AF500CFD1B8 /* CDVGestureHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVGestureHandler.h; sourceTree = "<group>"; };
-		B1ADE8391F417AF500CFD1B8 /* CDVGestureHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVGestureHandler.m; sourceTree = "<group>"; };
-		B1ADE83B1F417AF500CFD1B8 /* CDVHandleOpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVHandleOpenURL.h; sourceTree = "<group>"; };
-		B1ADE83C1F417AF500CFD1B8 /* CDVHandleOpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVHandleOpenURL.m; sourceTree = "<group>"; };
-		B1ADE83E1F417AF500CFD1B8 /* CDVIntentAndNavigationFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVIntentAndNavigationFilter.h; sourceTree = "<group>"; };
-		B1ADE83F1F417AF500CFD1B8 /* CDVIntentAndNavigationFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVIntentAndNavigationFilter.m; sourceTree = "<group>"; };
-		B1ADE8411F417AF500CFD1B8 /* CDVLocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVLocalStorage.h; sourceTree = "<group>"; };
-		B1ADE8421F417AF500CFD1B8 /* CDVLocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVLocalStorage.m; sourceTree = "<group>"; };
-		B1ADE8441F417AF500CFD1B8 /* CDVUIWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVUIWebViewDelegate.h; sourceTree = "<group>"; };
-		B1ADE8451F417AF500CFD1B8 /* CDVUIWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVUIWebViewDelegate.m; sourceTree = "<group>"; };
-		B1ADE8461F417AF500CFD1B8 /* CDVUIWebViewEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVUIWebViewEngine.h; sourceTree = "<group>"; };
-		B1ADE8471F417AF500CFD1B8 /* CDVUIWebViewEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVUIWebViewEngine.m; sourceTree = "<group>"; };
-		B1ADE8481F417AF500CFD1B8 /* CDVUIWebViewNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVUIWebViewNavigationDelegate.h; sourceTree = "<group>"; };
-		B1ADE8491F417AF500CFD1B8 /* CDVUIWebViewNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVUIWebViewNavigationDelegate.m; sourceTree = "<group>"; };
-		B1ADE84B1F417AF500CFD1B8 /* CDV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDV.h; sourceTree = "<group>"; };
-		B1ADE84C1F417AF500CFD1B8 /* CDVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAppDelegate.h; sourceTree = "<group>"; };
-		B1ADE84D1F417AF500CFD1B8 /* CDVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVAppDelegate.m; sourceTree = "<group>"; };
-		B1ADE84E1F417AF500CFD1B8 /* CDVAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAvailability.h; sourceTree = "<group>"; };
-		B1ADE84F1F417AF500CFD1B8 /* CDVAvailabilityDeprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAvailabilityDeprecated.h; sourceTree = "<group>"; };
-		B1ADE8501F417AF500CFD1B8 /* CDVCommandDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegate.h; sourceTree = "<group>"; };
-		B1ADE8511F417AF500CFD1B8 /* CDVCommandDelegateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegateImpl.h; sourceTree = "<group>"; };
-		B1ADE8521F417AF500CFD1B8 /* CDVCommandDelegateImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCommandDelegateImpl.m; sourceTree = "<group>"; };
-		B1ADE8531F417AF500CFD1B8 /* CDVCommandQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandQueue.h; sourceTree = "<group>"; };
-		B1ADE8541F417AF500CFD1B8 /* CDVCommandQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCommandQueue.m; sourceTree = "<group>"; };
-		B1ADE8551F417AF500CFD1B8 /* CDVConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVConfigParser.h; sourceTree = "<group>"; };
-		B1ADE8561F417AF500CFD1B8 /* CDVConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVConfigParser.m; sourceTree = "<group>"; };
-		B1ADE8571F417AF500CFD1B8 /* CDVInvokedUrlCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVInvokedUrlCommand.h; sourceTree = "<group>"; };
-		B1ADE8581F417AF500CFD1B8 /* CDVInvokedUrlCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVInvokedUrlCommand.m; sourceTree = "<group>"; };
-		B1ADE8591F417AF500CFD1B8 /* CDVPlugin+Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDVPlugin+Resources.h"; sourceTree = "<group>"; };
-		B1ADE85A1F417AF500CFD1B8 /* CDVPlugin+Resources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDVPlugin+Resources.m"; sourceTree = "<group>"; };
-		B1ADE85B1F417AF500CFD1B8 /* CDVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPlugin.h; sourceTree = "<group>"; };
-		B1ADE85C1F417AF500CFD1B8 /* CDVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPlugin.m; sourceTree = "<group>"; };
-		B1ADE85D1F417AF500CFD1B8 /* CDVPluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPluginResult.h; sourceTree = "<group>"; };
-		B1ADE85E1F417AF500CFD1B8 /* CDVPluginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPluginResult.m; sourceTree = "<group>"; };
-		B1ADE85F1F417AF500CFD1B8 /* CDVScreenOrientationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVScreenOrientationDelegate.h; sourceTree = "<group>"; };
-		B1ADE8601F417AF500CFD1B8 /* CDVTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVTimer.h; sourceTree = "<group>"; };
-		B1ADE8611F417AF500CFD1B8 /* CDVTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVTimer.m; sourceTree = "<group>"; };
-		B1ADE8621F417AF500CFD1B8 /* CDVURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVURLProtocol.h; sourceTree = "<group>"; };
-		B1ADE8631F417AF500CFD1B8 /* CDVURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVURLProtocol.m; sourceTree = "<group>"; };
-		B1ADE8641F417AF500CFD1B8 /* CDVUserAgentUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVUserAgentUtil.h; sourceTree = "<group>"; };
-		B1ADE8651F417AF500CFD1B8 /* CDVUserAgentUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVUserAgentUtil.m; sourceTree = "<group>"; };
-		B1ADE8661F417AF500CFD1B8 /* CDVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVViewController.h; sourceTree = "<group>"; };
-		B1ADE8671F417AF500CFD1B8 /* CDVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVViewController.m; sourceTree = "<group>"; };
-		B1ADE8681F417AF500CFD1B8 /* CDVWebViewEngineProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVWebViewEngineProtocol.h; sourceTree = "<group>"; };
-		B1ADE8691F417AF500CFD1B8 /* CDVWhitelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVWhitelist.h; sourceTree = "<group>"; };
-		B1ADE86A1F417AF500CFD1B8 /* CDVWhitelist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVWhitelist.m; sourceTree = "<group>"; };
-		B1ADE86B1F417AF500CFD1B8 /* NSDictionary+CordovaPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CordovaPreferences.h"; sourceTree = "<group>"; };
-		B1ADE86C1F417AF500CFD1B8 /* NSDictionary+CordovaPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CordovaPreferences.m"; sourceTree = "<group>"; };
-		B1ADE86D1F417AF500CFD1B8 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
-		B1ADE86E1F417AF500CFD1B8 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
 		B1ADE8871F417B4500CFD1B8 /* Connector_First.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connector_First.h; path = First/Connector_First.h; sourceTree = "<group>"; };
 		B1ADE8881F417B4500CFD1B8 /* Connector_First.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connector_First.m; path = First/Connector_First.m; sourceTree = "<group>"; };
 		B1ADE8891F417B4500CFD1B8 /* DetailPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailPlugin.h; path = First/DetailPlugin.h; sourceTree = "<group>"; };
@@ -151,22 +74,16 @@
 		B1ADE88E1F417B4500CFD1B8 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = First/FirstViewController.m; sourceTree = "<group>"; };
 		B1ADE88F1F417B4500CFD1B8 /* FirstViewUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewUserInfo.h; path = First/FirstViewUserInfo.h; sourceTree = "<group>"; };
 		B1ADE8901F417B4500CFD1B8 /* FirstViewUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewUserInfo.m; path = First/FirstViewUserInfo.m; sourceTree = "<group>"; };
-		B1ADE8971F417BB000CFD1B8 /* LDBusConnectorPrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusConnectorPrt.h; sourceTree = "<group>"; };
-		B1ADE8981F417BB000CFD1B8 /* LDBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediator.h; sourceTree = "<group>"; };
-		B1ADE8991F417BB000CFD1B8 /* LDBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediator.m; sourceTree = "<group>"; };
-		B1ADE89A1F417BB000CFD1B8 /* LDBusMediatorTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediatorTipViewController.h; sourceTree = "<group>"; };
-		B1ADE89B1F417BB000CFD1B8 /* LDBusMediatorTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediatorTipViewController.m; sourceTree = "<group>"; };
-		B1ADE89C1F417BB000CFD1B8 /* LDBusNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusNavigator.h; sourceTree = "<group>"; };
-		B1ADE89D1F417BB000CFD1B8 /* LDBusNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusNavigator.m; sourceTree = "<group>"; };
-		B1ADE89E1F417BB000CFD1B8 /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
-		B1ADE89F1F417BB000CFD1B8 /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
-		B1ADE8A41F417BBC00CFD1B8 /* RouterURLInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterURLInfo.h; sourceTree = "<group>"; };
 		B1ADE8A51F417C8800CFD1B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		B1ADE8A61F417CB700CFD1B8 /* ModelUserInfoItemPrt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelUserInfoItemPrt.h; sourceTree = "<group>"; };
-		B1ADE8A71F417CBE00CFD1B8 /* ModelUserInfoServicePrt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelUserInfoServicePrt.h; sourceTree = "<group>"; };
 		B1ADE8A91F417CFD00CFD1B8 /* HLAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAudioPlayer.h; sourceTree = "<group>"; };
 		B1ADE8AA1F417CFD00CFD1B8 /* HLAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAudioPlayer.m; sourceTree = "<group>"; };
-		B1ADE8AC1F417E0900CFD1B8 /* First.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = First.podspec; sourceTree = "<group>"; };
+		B1ADE8AE1F41816400CFD1B8 /* First.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = First.podspec; sourceTree = SOURCE_ROOT; };
+		B1ADE9041F42DED600CFD1B8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1ADE9151F42E7EC00CFD1B8 /* ModelUserInfoItemPrt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelUserInfoItemPrt.h; sourceTree = "<group>"; };
+		B1ADE9161F42E7EC00CFD1B8 /* ModelUserInfoServicePrt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelUserInfoServicePrt.h; sourceTree = "<group>"; };
+		B1ADE9171F42E80700CFD1B8 /* libCordova.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCordova.a; path = "../../../../Library/Developer/Xcode/DerivedData/First-dpfkyqjvypksnccssiarlxklfhug/Build/Products/Debug-iphonesimulator/Cordova/libCordova.a"; sourceTree = "<group>"; };
+		B1ADE9191F42E80A00CFD1B8 /* libBus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBus.a; path = "../../../../Library/Developer/Xcode/DerivedData/First-dpfkyqjvypksnccssiarlxklfhug/Build/Products/Debug-iphonesimulator/Bus/libBus.a"; sourceTree = "<group>"; };
+		D9519C41CED27DCFA0BAA410 /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.release.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +91,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1ADE91A1F42E80A00CFD1B8 /* libBus.a in Frameworks */,
+				B1ADE9181F42E80700CFD1B8 /* libCordova.a in Frameworks */,
+				811B66E77C5DB2B2E62B3397 /* libPods-First.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,12 +117,12 @@
 		B1ADE7DD1F4179BF00CFD1B8 = {
 			isa = PBXGroup;
 			children = (
-				B1ADE8961F417BB000CFD1B8 /* LDBusMediator */,
-				B1ADE82F1F417AF500CFD1B8 /* CordovaLib */,
 				B1ADE7E81F4179BF00CFD1B8 /* First */,
 				B1ADE8021F4179BF00CFD1B8 /* FirstTests */,
 				B1ADE80D1F4179BF00CFD1B8 /* FirstUITests */,
 				B1ADE7E71F4179BF00CFD1B8 /* Products */,
+				C9AD001036DF7CD222EF3C4C /* Pods */,
+				EFE304674C254B8F4B3D4E80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,7 +139,7 @@
 		B1ADE7E81F4179BF00CFD1B8 /* First */ = {
 			isa = PBXGroup;
 			children = (
-				B1ADE8A81F417CC400CFD1B8 /* service */,
+				B1ADE9141F42E7DF00CFD1B8 /* service */,
 				B1ADE7EC1F4179BF00CFD1B8 /* AppDelegate.h */,
 				B1ADE7ED1F4179BF00CFD1B8 /* AppDelegate.m */,
 				B1ADE7EF1F4179BF00CFD1B8 /* ViewController.h */,
@@ -236,11 +156,12 @@
 				B1ADE8901F417B4500CFD1B8 /* FirstViewUserInfo.m */,
 				B1ADE8A91F417CFD00CFD1B8 /* HLAudioPlayer.h */,
 				B1ADE8AA1F417CFD00CFD1B8 /* HLAudioPlayer.m */,
-				B1ADE8AC1F417E0900CFD1B8 /* First.podspec */,
+				B1ADE8AE1F41816400CFD1B8 /* First.podspec */,
 				B1ADE7F21F4179BF00CFD1B8 /* Main.storyboard */,
 				B1ADE7F51F4179BF00CFD1B8 /* Assets.xcassets */,
 				B1ADE7F71F4179BF00CFD1B8 /* LaunchScreen.storyboard */,
 				B1ADE7FA1F4179BF00CFD1B8 /* Info.plist */,
+				B1ADE9041F42DED600CFD1B8 /* Podfile */,
 				B1ADE7E91F4179BF00CFD1B8 /* Supporting Files */,
 			);
 			path = First;
@@ -273,157 +194,32 @@
 			path = FirstUITests;
 			sourceTree = "<group>";
 		};
-		B1ADE82F1F417AF500CFD1B8 /* CordovaLib */ = {
+		B1ADE9141F42E7DF00CFD1B8 /* service */ = {
 			isa = PBXGroup;
 			children = (
-				B1ADE8301F417AF500CFD1B8 /* config.xml */,
-				B1ADE8311F417AF500CFD1B8 /* Private */,
-				B1ADE84A1F417AF500CFD1B8 /* Public */,
-			);
-			name = CordovaLib;
-			path = First/CordovaLib;
-			sourceTree = "<group>";
-		};
-		B1ADE8311F417AF500CFD1B8 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE8321F417AF500CFD1B8 /* CDVDebug.h */,
-				B1ADE8331F417AF500CFD1B8 /* CDVJSON_private.h */,
-				B1ADE8341F417AF500CFD1B8 /* CDVJSON_private.m */,
-				B1ADE8351F417AF500CFD1B8 /* CDVPlugin+Private.h */,
-				B1ADE8361F417AF500CFD1B8 /* Plugins */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		B1ADE8361F417AF500CFD1B8 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE8371F417AF500CFD1B8 /* CDVGestureHandler */,
-				B1ADE83A1F417AF500CFD1B8 /* CDVHandleOpenURL */,
-				B1ADE83D1F417AF500CFD1B8 /* CDVIntentAndNavigationFilter */,
-				B1ADE8401F417AF500CFD1B8 /* CDVLocalStorage */,
-				B1ADE8431F417AF500CFD1B8 /* CDVUIWebViewEngine */,
-			);
-			path = Plugins;
-			sourceTree = "<group>";
-		};
-		B1ADE8371F417AF500CFD1B8 /* CDVGestureHandler */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE8381F417AF500CFD1B8 /* CDVGestureHandler.h */,
-				B1ADE8391F417AF500CFD1B8 /* CDVGestureHandler.m */,
-			);
-			path = CDVGestureHandler;
-			sourceTree = "<group>";
-		};
-		B1ADE83A1F417AF500CFD1B8 /* CDVHandleOpenURL */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE83B1F417AF500CFD1B8 /* CDVHandleOpenURL.h */,
-				B1ADE83C1F417AF500CFD1B8 /* CDVHandleOpenURL.m */,
-			);
-			path = CDVHandleOpenURL;
-			sourceTree = "<group>";
-		};
-		B1ADE83D1F417AF500CFD1B8 /* CDVIntentAndNavigationFilter */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE83E1F417AF500CFD1B8 /* CDVIntentAndNavigationFilter.h */,
-				B1ADE83F1F417AF500CFD1B8 /* CDVIntentAndNavigationFilter.m */,
-			);
-			path = CDVIntentAndNavigationFilter;
-			sourceTree = "<group>";
-		};
-		B1ADE8401F417AF500CFD1B8 /* CDVLocalStorage */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE8411F417AF500CFD1B8 /* CDVLocalStorage.h */,
-				B1ADE8421F417AF500CFD1B8 /* CDVLocalStorage.m */,
-			);
-			path = CDVLocalStorage;
-			sourceTree = "<group>";
-		};
-		B1ADE8431F417AF500CFD1B8 /* CDVUIWebViewEngine */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE8441F417AF500CFD1B8 /* CDVUIWebViewDelegate.h */,
-				B1ADE8451F417AF500CFD1B8 /* CDVUIWebViewDelegate.m */,
-				B1ADE8461F417AF500CFD1B8 /* CDVUIWebViewEngine.h */,
-				B1ADE8471F417AF500CFD1B8 /* CDVUIWebViewEngine.m */,
-				B1ADE8481F417AF500CFD1B8 /* CDVUIWebViewNavigationDelegate.h */,
-				B1ADE8491F417AF500CFD1B8 /* CDVUIWebViewNavigationDelegate.m */,
-			);
-			path = CDVUIWebViewEngine;
-			sourceTree = "<group>";
-		};
-		B1ADE84A1F417AF500CFD1B8 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE84B1F417AF500CFD1B8 /* CDV.h */,
-				B1ADE84C1F417AF500CFD1B8 /* CDVAppDelegate.h */,
-				B1ADE84D1F417AF500CFD1B8 /* CDVAppDelegate.m */,
-				B1ADE84E1F417AF500CFD1B8 /* CDVAvailability.h */,
-				B1ADE84F1F417AF500CFD1B8 /* CDVAvailabilityDeprecated.h */,
-				B1ADE8501F417AF500CFD1B8 /* CDVCommandDelegate.h */,
-				B1ADE8511F417AF500CFD1B8 /* CDVCommandDelegateImpl.h */,
-				B1ADE8521F417AF500CFD1B8 /* CDVCommandDelegateImpl.m */,
-				B1ADE8531F417AF500CFD1B8 /* CDVCommandQueue.h */,
-				B1ADE8541F417AF500CFD1B8 /* CDVCommandQueue.m */,
-				B1ADE8551F417AF500CFD1B8 /* CDVConfigParser.h */,
-				B1ADE8561F417AF500CFD1B8 /* CDVConfigParser.m */,
-				B1ADE8571F417AF500CFD1B8 /* CDVInvokedUrlCommand.h */,
-				B1ADE8581F417AF500CFD1B8 /* CDVInvokedUrlCommand.m */,
-				B1ADE8591F417AF500CFD1B8 /* CDVPlugin+Resources.h */,
-				B1ADE85A1F417AF500CFD1B8 /* CDVPlugin+Resources.m */,
-				B1ADE85B1F417AF500CFD1B8 /* CDVPlugin.h */,
-				B1ADE85C1F417AF500CFD1B8 /* CDVPlugin.m */,
-				B1ADE85D1F417AF500CFD1B8 /* CDVPluginResult.h */,
-				B1ADE85E1F417AF500CFD1B8 /* CDVPluginResult.m */,
-				B1ADE85F1F417AF500CFD1B8 /* CDVScreenOrientationDelegate.h */,
-				B1ADE8601F417AF500CFD1B8 /* CDVTimer.h */,
-				B1ADE8611F417AF500CFD1B8 /* CDVTimer.m */,
-				B1ADE8621F417AF500CFD1B8 /* CDVURLProtocol.h */,
-				B1ADE8631F417AF500CFD1B8 /* CDVURLProtocol.m */,
-				B1ADE8641F417AF500CFD1B8 /* CDVUserAgentUtil.h */,
-				B1ADE8651F417AF500CFD1B8 /* CDVUserAgentUtil.m */,
-				B1ADE8661F417AF500CFD1B8 /* CDVViewController.h */,
-				B1ADE8671F417AF500CFD1B8 /* CDVViewController.m */,
-				B1ADE8681F417AF500CFD1B8 /* CDVWebViewEngineProtocol.h */,
-				B1ADE8691F417AF500CFD1B8 /* CDVWhitelist.h */,
-				B1ADE86A1F417AF500CFD1B8 /* CDVWhitelist.m */,
-				B1ADE86B1F417AF500CFD1B8 /* NSDictionary+CordovaPreferences.h */,
-				B1ADE86C1F417AF500CFD1B8 /* NSDictionary+CordovaPreferences.m */,
-				B1ADE86D1F417AF500CFD1B8 /* NSMutableArray+QueueAdditions.h */,
-				B1ADE86E1F417AF500CFD1B8 /* NSMutableArray+QueueAdditions.m */,
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		B1ADE8961F417BB000CFD1B8 /* LDBusMediator */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE8971F417BB000CFD1B8 /* LDBusConnectorPrt.h */,
-				B1ADE8981F417BB000CFD1B8 /* LDBusMediator.h */,
-				B1ADE8991F417BB000CFD1B8 /* LDBusMediator.m */,
-				B1ADE89A1F417BB000CFD1B8 /* LDBusMediatorTipViewController.h */,
-				B1ADE89B1F417BB000CFD1B8 /* LDBusMediatorTipViewController.m */,
-				B1ADE89C1F417BB000CFD1B8 /* LDBusNavigator.h */,
-				B1ADE89D1F417BB000CFD1B8 /* LDBusNavigator.m */,
-				B1ADE89E1F417BB000CFD1B8 /* UIViewController+NavigationTip.h */,
-				B1ADE89F1F417BB000CFD1B8 /* UIViewController+NavigationTip.m */,
-			);
-			path = LDBusMediator;
-			sourceTree = "<group>";
-		};
-		B1ADE8A81F417CC400CFD1B8 /* service */ = {
-			isa = PBXGroup;
-			children = (
-				B1ADE8A41F417BBC00CFD1B8 /* RouterURLInfo.h */,
-				B1ADE8A61F417CB700CFD1B8 /* ModelUserInfoItemPrt.h */,
-				B1ADE8A71F417CBE00CFD1B8 /* ModelUserInfoServicePrt.h */,
+				B1ADE9151F42E7EC00CFD1B8 /* ModelUserInfoItemPrt.h */,
+				B1ADE9161F42E7EC00CFD1B8 /* ModelUserInfoServicePrt.h */,
 			);
 			name = service;
+			sourceTree = "<group>";
+		};
+		C9AD001036DF7CD222EF3C4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C573B2C6541881D03429A64 /* Pods-First.debug.xcconfig */,
+				D9519C41CED27DCFA0BAA410 /* Pods-First.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFE304674C254B8F4B3D4E80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1ADE9191F42E80A00CFD1B8 /* libBus.a */,
+				B1ADE9171F42E80700CFD1B8 /* libCordova.a */,
+				1F4425E185AF640FFCA31540 /* libPods-First.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1ADE8131F4179BF00CFD1B8 /* Build configuration list for PBXNativeTarget "First" */;
 			buildPhases = (
+				769C9A95E96C96BFB16A26BF /* [CP] Check Pods Manifest.lock */,
 				B1ADE7E21F4179BF00CFD1B8 /* Sources */,
 				B1ADE7E31F4179BF00CFD1B8 /* Frameworks */,
 				B1ADE7E41F4179BF00CFD1B8 /* Resources */,
+				732CA2023B913342F95F5D37 /* [CP] Embed Pods Frameworks */,
+				E1A2295293F398B6FED8EB29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -532,11 +331,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1ADE9051F42DED600CFD1B8 /* Podfile in Resources */,
 				B1ADE7F91F4179BF00CFD1B8 /* LaunchScreen.storyboard in Resources */,
 				B1ADE7F61F4179BF00CFD1B8 /* Assets.xcassets in Resources */,
 				B1ADE7F41F4179BF00CFD1B8 /* Main.storyboard in Resources */,
-				B1ADE86F1F417AF500CFD1B8 /* config.xml in Resources */,
-				B1ADE8AD1F417E0900CFD1B8 /* First.podspec in Resources */,
+				B1ADE8AF1F41816400CFD1B8 /* First.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,47 +355,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		732CA2023B913342F95F5D37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-First/Pods-First-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		769C9A95E96C96BFB16A26BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1A2295293F398B6FED8EB29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-First/Pods-First-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1ADE7E21F4179BF00CFD1B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1ADE87A1F417AF500CFD1B8 /* CDVCommandQueue.m in Sources */,
-				B1ADE8751F417AF500CFD1B8 /* CDVUIWebViewDelegate.m in Sources */,
-				B1ADE8851F417AF500CFD1B8 /* NSDictionary+CordovaPreferences.m in Sources */,
-				B1ADE8701F417AF500CFD1B8 /* CDVJSON_private.m in Sources */,
-				B1ADE8811F417AF500CFD1B8 /* CDVURLProtocol.m in Sources */,
 				B1ADE8AB1F417CFD00CFD1B8 /* HLAudioPlayer.m in Sources */,
-				B1ADE8731F417AF500CFD1B8 /* CDVIntentAndNavigationFilter.m in Sources */,
-				B1ADE8821F417AF500CFD1B8 /* CDVUserAgentUtil.m in Sources */,
 				B1ADE8941F417B4500CFD1B8 /* FirstViewController.m in Sources */,
-				B1ADE8861F417AF500CFD1B8 /* NSMutableArray+QueueAdditions.m in Sources */,
-				B1ADE8771F417AF500CFD1B8 /* CDVUIWebViewNavigationDelegate.m in Sources */,
 				B1ADE7F11F4179BF00CFD1B8 /* ViewController.m in Sources */,
-				B1ADE8841F417AF500CFD1B8 /* CDVWhitelist.m in Sources */,
-				B1ADE87E1F417AF500CFD1B8 /* CDVPlugin.m in Sources */,
-				B1ADE87D1F417AF500CFD1B8 /* CDVPlugin+Resources.m in Sources */,
-				B1ADE8A11F417BB000CFD1B8 /* LDBusMediatorTipViewController.m in Sources */,
-				B1ADE87B1F417AF500CFD1B8 /* CDVConfigParser.m in Sources */,
 				B1ADE7EE1F4179BF00CFD1B8 /* AppDelegate.m in Sources */,
 				B1ADE8911F417B4500CFD1B8 /* Connector_First.m in Sources */,
 				B1ADE8931F417B4500CFD1B8 /* FirstDetailViewController.m in Sources */,
-				B1ADE87C1F417AF500CFD1B8 /* CDVInvokedUrlCommand.m in Sources */,
-				B1ADE8711F417AF500CFD1B8 /* CDVGestureHandler.m in Sources */,
-				B1ADE8791F417AF500CFD1B8 /* CDVCommandDelegateImpl.m in Sources */,
 				B1ADE8921F417B4500CFD1B8 /* DetailPlugin.m in Sources */,
-				B1ADE8831F417AF500CFD1B8 /* CDVViewController.m in Sources */,
-				B1ADE8781F417AF500CFD1B8 /* CDVAppDelegate.m in Sources */,
 				B1ADE8951F417B4500CFD1B8 /* FirstViewUserInfo.m in Sources */,
-				B1ADE8A31F417BB000CFD1B8 /* UIViewController+NavigationTip.m in Sources */,
-				B1ADE8A21F417BB000CFD1B8 /* LDBusNavigator.m in Sources */,
-				B1ADE8A01F417BB000CFD1B8 /* LDBusMediator.m in Sources */,
-				B1ADE8741F417AF500CFD1B8 /* CDVLocalStorage.m in Sources */,
-				B1ADE8801F417AF500CFD1B8 /* CDVTimer.m in Sources */,
 				B1ADE7EB1F4179BF00CFD1B8 /* main.m in Sources */,
-				B1ADE8721F417AF500CFD1B8 /* CDVHandleOpenURL.m in Sources */,
-				B1ADE8761F417AF500CFD1B8 /* CDVUIWebViewEngine.m in Sources */,
-				B1ADE87F1F417AF500CFD1B8 /* CDVPluginResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,6 +568,7 @@
 		};
 		B1ADE8141F4179BF00CFD1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C573B2C6541881D03429A64 /* Pods-First.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = First/PrefixHeader.pch;
@@ -757,6 +581,7 @@
 		};
 		B1ADE8151F4179BF00CFD1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9519C41CED27DCFA0BAA410 /* Pods-First.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = First/PrefixHeader.pch;
@@ -832,6 +657,7 @@
 				B1ADE8151F4179BF00CFD1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1ADE8161F4179BF00CFD1B8 /* Build configuration list for PBXNativeTarget "FirstTests" */ = {
 			isa = XCConfigurationList;
@@ -840,6 +666,7 @@
 				B1ADE8181F4179BF00CFD1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1ADE8191F4179BF00CFD1B8 /* Build configuration list for PBXNativeTarget "FirstUITests" */ = {
 			isa = XCConfigurationList;
@@ -848,6 +675,7 @@
 				B1ADE81B1F4179BF00CFD1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
