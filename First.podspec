@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "First/First/**/*.{h,m}","First/First/**/**/*.{h,m}","First/First/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
-   # s.public_header_files = "Pods/Headers/**/*.h","Pods/Headers/**/**/*.h"
+  # s.public_header_files = "Pods/Headers/**/*.h","Pods/Headers/**/**/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
    s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "CordovaLib"
-  # s.libraries = "Bus", "Cordova"
+   s.libraries = "Bus", "Cordova"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,8 +133,8 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "Bus"
-  s.dependency "Cordova", "~> 4.4.4"
+   s.dependency "Bus"
+   s.dependency "Cordova", "~> 4.4.4"
 
 
 
