@@ -133,10 +133,17 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "Cordova", "~> 4.4.4"
-   s.dependency "Bus", "~> 0.0.4"
+   s.dependency "Cordova", "~> 4.4.0"
+    s.dependency "Bus", "~> 0.0.4"
+
+   #   s.subspec 'Bus' do |bus|
+   #   bus.source_files = 'Pods/Bus/Bus/Bus/**/*.m'
+  #   bus.public_header_files = 'Pods/Bus/Bus/Bus/**/*.h'
+  #   Bus.dependency 'AFNetworking', '~> 2.3'
+   #  end
 
 
-
-
+   #  s.subspec 'DataModel' do |dataModel|
+   #  dataModel.source_files = 'Pod/Classes/DataModel/**/*'
+   #  dataModel.public_header_files = 'Pod/Classes/DataModel/**/*.h'
 end
