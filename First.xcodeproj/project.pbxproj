@@ -21,11 +21,11 @@
 		B1ADE8931F417B4500CFD1B8 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE88C1F417B4500CFD1B8 /* FirstDetailViewController.m */; };
 		B1ADE8941F417B4500CFD1B8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE88E1F417B4500CFD1B8 /* FirstViewController.m */; };
 		B1ADE8951F417B4500CFD1B8 /* FirstViewUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8901F417B4500CFD1B8 /* FirstViewUserInfo.m */; };
-		B1ADE8AB1F417CFD00CFD1B8 /* HLAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8AA1F417CFD00CFD1B8 /* HLAudioPlayer.m */; };
 		B1ADE8AF1F41816400CFD1B8 /* First.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE8AE1F41816400CFD1B8 /* First.podspec */; };
 		B1ADE9051F42DED600CFD1B8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE9041F42DED600CFD1B8 /* Podfile */; };
 		B1ADE9181F42E80700CFD1B8 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9171F42E80700CFD1B8 /* libCordova.a */; };
 		B1ADE91A1F42E80A00CFD1B8 /* libBus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9191F42E80A00CFD1B8 /* libBus.a */; };
+		B1ADE91D1F43DEAF00CFD1B8 /* HLAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE91C1F43DEAF00CFD1B8 /* HLAudioPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,14 +75,14 @@
 		B1ADE88F1F417B4500CFD1B8 /* FirstViewUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewUserInfo.h; path = First/FirstViewUserInfo.h; sourceTree = "<group>"; };
 		B1ADE8901F417B4500CFD1B8 /* FirstViewUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewUserInfo.m; path = First/FirstViewUserInfo.m; sourceTree = "<group>"; };
 		B1ADE8A51F417C8800CFD1B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		B1ADE8A91F417CFD00CFD1B8 /* HLAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAudioPlayer.h; sourceTree = "<group>"; };
-		B1ADE8AA1F417CFD00CFD1B8 /* HLAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAudioPlayer.m; sourceTree = "<group>"; };
 		B1ADE8AE1F41816400CFD1B8 /* First.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = First.podspec; sourceTree = SOURCE_ROOT; };
 		B1ADE9041F42DED600CFD1B8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1ADE9151F42E7EC00CFD1B8 /* ModelUserInfoItemPrt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelUserInfoItemPrt.h; sourceTree = "<group>"; };
 		B1ADE9161F42E7EC00CFD1B8 /* ModelUserInfoServicePrt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelUserInfoServicePrt.h; sourceTree = "<group>"; };
 		B1ADE9171F42E80700CFD1B8 /* libCordova.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCordova.a; path = "../../../../Library/Developer/Xcode/DerivedData/First-dpfkyqjvypksnccssiarlxklfhug/Build/Products/Debug-iphonesimulator/Cordova/libCordova.a"; sourceTree = "<group>"; };
 		B1ADE9191F42E80A00CFD1B8 /* libBus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBus.a; path = "../../../../Library/Developer/Xcode/DerivedData/First-dpfkyqjvypksnccssiarlxklfhug/Build/Products/Debug-iphonesimulator/Bus/libBus.a"; sourceTree = "<group>"; };
+		B1ADE91B1F43DEAF00CFD1B8 /* HLAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLAudioPlayer.h; path = First/HLAudioPlayer.h; sourceTree = "<group>"; };
+		B1ADE91C1F43DEAF00CFD1B8 /* HLAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLAudioPlayer.m; path = First/HLAudioPlayer.m; sourceTree = "<group>"; };
 		D9519C41CED27DCFA0BAA410 /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.release.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,8 +154,8 @@
 				B1ADE88E1F417B4500CFD1B8 /* FirstViewController.m */,
 				B1ADE88F1F417B4500CFD1B8 /* FirstViewUserInfo.h */,
 				B1ADE8901F417B4500CFD1B8 /* FirstViewUserInfo.m */,
-				B1ADE8A91F417CFD00CFD1B8 /* HLAudioPlayer.h */,
-				B1ADE8AA1F417CFD00CFD1B8 /* HLAudioPlayer.m */,
+				B1ADE91B1F43DEAF00CFD1B8 /* HLAudioPlayer.h */,
+				B1ADE91C1F43DEAF00CFD1B8 /* HLAudioPlayer.m */,
 				B1ADE8AE1F41816400CFD1B8 /* First.podspec */,
 				B1ADE7F21F4179BF00CFD1B8 /* Main.storyboard */,
 				B1ADE7F51F4179BF00CFD1B8 /* Assets.xcassets */,
@@ -411,12 +411,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1ADE8AB1F417CFD00CFD1B8 /* HLAudioPlayer.m in Sources */,
 				B1ADE8941F417B4500CFD1B8 /* FirstViewController.m in Sources */,
 				B1ADE7F11F4179BF00CFD1B8 /* ViewController.m in Sources */,
 				B1ADE7EE1F4179BF00CFD1B8 /* AppDelegate.m in Sources */,
 				B1ADE8911F417B4500CFD1B8 /* Connector_First.m in Sources */,
 				B1ADE8931F417B4500CFD1B8 /* FirstDetailViewController.m in Sources */,
+				B1ADE91D1F43DEAF00CFD1B8 /* HLAudioPlayer.m in Sources */,
 				B1ADE8921F417B4500CFD1B8 /* DetailPlugin.m in Sources */,
 				B1ADE8951F417B4500CFD1B8 /* FirstViewUserInfo.m in Sources */,
 				B1ADE7EB1F4179BF00CFD1B8 /* main.m in Sources */,
