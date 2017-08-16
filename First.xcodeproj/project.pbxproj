@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		811B66E77C5DB2B2E62B3397 /* libPods-First.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4425E185AF640FFCA31540 /* libPods-First.a */; };
 		B1ADE7EB1F4179BF00CFD1B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE7EA1F4179BF00CFD1B8 /* main.m */; };
 		B1ADE7EE1F4179BF00CFD1B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE7ED1F4179BF00CFD1B8 /* AppDelegate.m */; };
 		B1ADE7F11F4179BF00CFD1B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE7F01F4179BF00CFD1B8 /* ViewController.m */; };
@@ -23,9 +22,10 @@
 		B1ADE8951F417B4500CFD1B8 /* FirstViewUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8901F417B4500CFD1B8 /* FirstViewUserInfo.m */; };
 		B1ADE8AF1F41816400CFD1B8 /* First.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE8AE1F41816400CFD1B8 /* First.podspec */; };
 		B1ADE9051F42DED600CFD1B8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE9041F42DED600CFD1B8 /* Podfile */; };
-		B1ADE9181F42E80700CFD1B8 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9171F42E80700CFD1B8 /* libCordova.a */; };
-		B1ADE91A1F42E80A00CFD1B8 /* libBus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9191F42E80A00CFD1B8 /* libBus.a */; };
 		B1ADE91D1F43DEAF00CFD1B8 /* HLAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE91C1F43DEAF00CFD1B8 /* HLAudioPlayer.m */; };
+		B1ADE91E1F43E25200CFD1B8 /* libBus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9191F42E80A00CFD1B8 /* libBus.a */; };
+		B1ADE91F1F43E25600CFD1B8 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9171F42E80700CFD1B8 /* libCordova.a */; };
+		B1ADE9211F43E25A00CFD1B8 /* libPods-First.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9201F43E25A00CFD1B8 /* libPods-First.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +83,7 @@
 		B1ADE9191F42E80A00CFD1B8 /* libBus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBus.a; path = "../../../../Library/Developer/Xcode/DerivedData/First-dpfkyqjvypksnccssiarlxklfhug/Build/Products/Debug-iphonesimulator/Bus/libBus.a"; sourceTree = "<group>"; };
 		B1ADE91B1F43DEAF00CFD1B8 /* HLAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLAudioPlayer.h; path = First/HLAudioPlayer.h; sourceTree = "<group>"; };
 		B1ADE91C1F43DEAF00CFD1B8 /* HLAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLAudioPlayer.m; path = First/HLAudioPlayer.m; sourceTree = "<group>"; };
+		B1ADE9201F43E25A00CFD1B8 /* libPods-First.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-First.a"; path = "../../../../Library/Developer/Xcode/DerivedData/First-dpfkyqjvypksnccssiarlxklfhug/Build/Products/Debug-iphonesimulator/libPods-First.a"; sourceTree = "<group>"; };
 		D9519C41CED27DCFA0BAA410 /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.release.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,9 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1ADE91A1F42E80A00CFD1B8 /* libBus.a in Frameworks */,
-				B1ADE9181F42E80700CFD1B8 /* libCordova.a in Frameworks */,
-				811B66E77C5DB2B2E62B3397 /* libPods-First.a in Frameworks */,
+				B1ADE9211F43E25A00CFD1B8 /* libPods-First.a in Frameworks */,
+				B1ADE91F1F43E25600CFD1B8 /* libCordova.a in Frameworks */,
+				B1ADE91E1F43E25200CFD1B8 /* libBus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +216,7 @@
 		EFE304674C254B8F4B3D4E80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1ADE9201F43E25A00CFD1B8 /* libPods-First.a */,
 				B1ADE9191F42E80A00CFD1B8 /* libBus.a */,
 				B1ADE9171F42E80700CFD1B8 /* libCordova.a */,
 				1F4425E185AF640FFCA31540 /* libPods-First.a */,
