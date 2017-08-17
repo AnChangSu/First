@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "ModelUserInfoItemPrt.h"
 
-@interface FirstViewUserInfo : UICollectionViewFlowLayout<ModelUserInfoPrt>
+@interface FirstViewUserInfo : NSObject<ModelUserInfoPrt>
 
+@property(nonatomic,strong,nullable) NSString *name;
+@property(nonatomic,strong,nullable) NSString *school;
+@property(nonatomic,copy,nonnull)   NSString *token;
+
+-(nonnull instancetype)initWIthName:(nullable NSString*)tname School:(nullable NSString*)tschool token:(nonnull NSString *)ttoken;
 
 @end
