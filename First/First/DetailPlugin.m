@@ -9,6 +9,7 @@
 #import "DetailPlugin.h"
 #import <AVFoundation/AVFoundation.h>
 #import "HLAudioPlayer.h"
+#import "CDV.h"
 
 @implementation DetailPlugin
 

@@ -7,6 +7,7 @@
 //
 
 #import "FirstDetailViewController.h"
+#import "CDVViewController.h"
 
 @interface FirstDetailViewController ()
 

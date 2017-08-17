@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CDVViewController.h"
+
+@class CDVViewController;
 
 //这个view用来演示jsbridge Cordovalib
 @interface FirstDetailViewController : CDVViewController
