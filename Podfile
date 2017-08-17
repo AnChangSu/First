@@ -5,8 +5,10 @@ source 'https://github.com/AnChangSu/Repositories.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'First' do
+    
+pod 'AFNetworking'
 
-pod "Bus"
+pod 'Bus'
 
 pod 'Cordova', '~> 4.4.0'
 

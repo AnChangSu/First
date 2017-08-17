@@ -11,6 +11,7 @@
 #import "RouterURLInfo.h"
 #import "ModelUserInfoServicePrt.h"
 
+#import "LDBusConnectorPrt.h"
 #import "FirstViewUserInfo.h"
 #import "FirstViewController.h"
 #import "FirstDetailViewController.h"

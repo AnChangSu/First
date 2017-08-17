@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
    s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "CordovaLib"
-   s.libraries = "Bus", "Cordova"
+   # s.libraries = "Bus", "Cordova"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -135,6 +135,12 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    s.dependency "Cordova", "~> 4.4.0"
     s.dependency "Bus", "~> 0.0.4"
+    s.dependency "AFNetworking"
+
+    # s.subspec "Bus" do |bus|
+      #   bus.dependency "Bus", "~> 0.0.4"
+        # bus.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/Bus"}
+    # end
 
    #   s.subspec 'Bus' do |bus|
    #   bus.source_files = 'Pods/Bus/Bus/Bus/**/*.m'

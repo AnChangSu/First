@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181949BD1F45432500D1DA6A /* libBus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 181949BC1F45432500D1DA6A /* libBus.a */; };
+		236D4C9D89778F5985440A9D /* libPods-First.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4425E185AF640FFCA31540 /* libPods-First.a */; };
 		B1ADE7EB1F4179BF00CFD1B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE7EA1F4179BF00CFD1B8 /* main.m */; };
 		B1ADE7EE1F4179BF00CFD1B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE7ED1F4179BF00CFD1B8 /* AppDelegate.m */; };
 		B1ADE7F11F4179BF00CFD1B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE7F01F4179BF00CFD1B8 /* ViewController.m */; };
@@ -23,7 +25,6 @@
 		B1ADE8AF1F41816400CFD1B8 /* First.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE8AE1F41816400CFD1B8 /* First.podspec */; };
 		B1ADE9051F42DED600CFD1B8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE9041F42DED600CFD1B8 /* Podfile */; };
 		B1ADE91D1F43DEAF00CFD1B8 /* HLAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE91C1F43DEAF00CFD1B8 /* HLAudioPlayer.m */; };
-		B1ADE91E1F43E25200CFD1B8 /* libBus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9191F42E80A00CFD1B8 /* libBus.a */; };
 		B1ADE91F1F43E25600CFD1B8 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9171F42E80700CFD1B8 /* libCordova.a */; };
 		B1ADE9211F43E25A00CFD1B8 /* libPods-First.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9201F43E25A00CFD1B8 /* libPods-First.a */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181949BC1F45432500D1DA6A /* libBus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBus.a; path = "Pods/../build/Debug-iphoneos/Bus/libBus.a"; sourceTree = "<group>"; };
 		1F4425E185AF640FFCA31540 /* libPods-First.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-First.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C573B2C6541881D03429A64 /* Pods-First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.debug.xcconfig"; sourceTree = "<group>"; };
 		B1ADE7E61F4179BF00CFD1B8 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,9 +94,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181949BD1F45432500D1DA6A /* libBus.a in Frameworks */,
 				B1ADE9211F43E25A00CFD1B8 /* libPods-First.a in Frameworks */,
 				B1ADE91F1F43E25600CFD1B8 /* libCordova.a in Frameworks */,
-				B1ADE91E1F43E25200CFD1B8 /* libBus.a in Frameworks */,
+				236D4C9D89778F5985440A9D /* libPods-First.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +219,7 @@
 		EFE304674C254B8F4B3D4E80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				181949BC1F45432500D1DA6A /* libBus.a */,
 				B1ADE9201F43E25A00CFD1B8 /* libPods-First.a */,
 				B1ADE9191F42E80A00CFD1B8 /* libBus.a */,
 				B1ADE9171F42E80700CFD1B8 /* libCordova.a */,
@@ -294,6 +298,7 @@
 				TargetAttributes = {
 					B1ADE7E51F4179BF00CFD1B8 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LW95FQS929;
 						ProvisioningStyle = Automatic;
 					};
 					B1ADE7FE1F4179BF00CFD1B8 = {
@@ -388,7 +393,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E1A2295293F398B6FED8EB29 /* [CP] Copy Pods Resources */ = {
@@ -517,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -560,7 +565,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -573,9 +578,16 @@
 			baseConfigurationReference = 3C573B2C6541881D03429A64 /* Pods-First.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = First/PrefixHeader.pch;
 				INFOPLIST_FILE = First/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Bus",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.First;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -586,9 +598,16 @@
 			baseConfigurationReference = D9519C41CED27DCFA0BAA410 /* Pods-First.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = First/PrefixHeader.pch;
 				INFOPLIST_FILE = First/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Bus",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.First;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -599,6 +618,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FirstTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.FirstTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -611,6 +631,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FirstTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.FirstTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -622,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = FirstUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.FirstUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -633,6 +655,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = FirstUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.FirstUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
