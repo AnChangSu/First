@@ -162,9 +162,9 @@
 				B1ADE91C1F43DEAF00CFD1B8 /* HLAudioPlayer.m */,
 				B1ADE8AE1F41816400CFD1B8 /* First.podspec */,
 				B1ADE7F21F4179BF00CFD1B8 /* Main.storyboard */,
+				B1ADE7FA1F4179BF00CFD1B8 /* Info.plist */,
 				B1ADE7F51F4179BF00CFD1B8 /* Assets.xcassets */,
 				B1ADE7F71F4179BF00CFD1B8 /* LaunchScreen.storyboard */,
-				B1ADE7FA1F4179BF00CFD1B8 /* Info.plist */,
 				B1ADE9041F42DED600CFD1B8 /* Podfile */,
 				B1ADE7E91F4179BF00CFD1B8 /* Supporting Files */,
 			);

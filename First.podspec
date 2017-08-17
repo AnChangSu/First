@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "First"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "First."
 
   # This description is used to generate tags and improve search results.
@@ -133,7 +133,7 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "Cordova", "~> 4.4.0"
+   s.dependency "Cordova"
     s.dependency "Bus", "~> 0.0.4"
     s.dependency "AFNetworking"
 
