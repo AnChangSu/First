@@ -6,9 +6,7 @@
 //  Copyright © 2017年 安昌. All rights reserved.
 //
 
-
-@class CDVPlugin;
-@class CDVInvokedUrlCommand;
+#import "CDV.h"
 
 @interface DetailPlugin : CDVPlugin
 

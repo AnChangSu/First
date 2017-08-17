@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@protocol LDBusConnectorPrt;
+#import "LDBusConnectorPrt.h"
 
 @interface Connector_First : NSObject<LDBusConnectorPrt>
 
