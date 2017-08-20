@@ -96,10 +96,10 @@
     
     NSArray *array = [self findController];
     for ( int i=0 ; i<[array count]; i++) {
-        UIViewController *controller = [array objectAtIndex:i];
+        UIViewController *tempController = [array objectAtIndex:i];
         
-        if ( [controller class] == [FirstViewController class] ) {
-            FirstViewController *controller = (FirstViewController*)self.currentController;
+        if ( [tempController isKindOfClass:[FirstViewController class]] ) {
+            FirstViewController *controller = (FirstViewController*)tempController;
             if( [item isKindOfClass:[FirstViewUserInfo class]] ){
                 controller.userInfo = (FirstViewUserInfo *)item;
             }else{
